@@ -1,0 +1,7 @@
+---
+applications:
+- name: oxobot
+  path: .
+  buildpack: nodejs_buildpack
+  memory: 1024M
+  health-check-type: process
